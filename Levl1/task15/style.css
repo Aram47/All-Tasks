@@ -1,0 +1,54 @@
+ul {
+    width: 250px;
+    margin: 0 auto;
+}
+
+ul li {
+    display: inline;
+}
+
+#text {
+    width: 300px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1820px) {
+    ul {
+        width: 250px;
+        margin: 0 auto;
+    }
+    ul li {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    ul {
+        width: 200px;
+        margin: 0 auto;
+    }
+    ul li {
+        width: 40px;
+        display: inline;
+    }
+
+    #text {
+        width: 150px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    ul {
+        width: 200px;
+        margin: 0 auto;
+    }
+    ul li {
+        width: 20px;
+        display: inline;
+    }
+    #text {
+        width: 100px;
+        margin: 0 auto;
+    }
+}
